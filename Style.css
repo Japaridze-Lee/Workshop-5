@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #274C5B;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 1920px;
+    background: #F9F8F8;
+}
+
+.logo span {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #274C5B;
+}
+
+header {
+    width: 1919.79px;
+    height: 191.72px;
+    background: #ffffff;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header-container {
+    height: 191.72px;
+    width: 1595.79px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    width: 198.79px;
+    height: 53.72px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+nav {
+    margin-left: 150px;
+    color: #274C5B;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav li {
+    font-size: 20px;
+    font-weight: 700;
+    color: #274C5B;
+    cursor: pointer;
+}
+
+.about {
+    width: 1920px;
+    height: 1050px;
+}
+
+.about-container {
+    width: 1400px;
+    height: 624px;
+    margin-top: 72.28px;
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+
+.about-text {
+    width: 671px;
+    height: 624px;
+}
+
+.about-text h3 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #7EB693;
+    margin-bottom: 8px;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about-text h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #274C5B;
+    margin-bottom: 25px;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 165%;
+    color: #525C60;
+    margin-bottom: 25px;
+}
+
+.feature-box {
+    width: 339px;
+    height: 81px;
+    background: #F9F8F8;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 27px;
+    margin-bottom: 15px;
+}
+
+.feature-box span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #274C5B;
+}
+
+.about-image img {
+    width: 678px;
+    height: 579px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.cards {
+    width: 1118px;
+    height: 335px;
+    margin: 91px auto 0;
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    width: 257px;
+    height: 335px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #274C5B;
+    margin-bottom: 15px;
+}
+
+.card p {
+    width: 170px;
+    font-size: 18px;
+    line-height: 165%;
+    color: #525C60;
+}
